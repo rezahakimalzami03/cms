@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "penggerak_ok_oces",
+  "info": {
+    "singularName": "penggerak-ok-oce",
+    "pluralName": "penggerak-ok-oces",
+    "displayName": "Penggerak-OkOce"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "foto_penggerak": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "judul_penggerak": {
+      "type": "string",
+      "required": true
+    },
+    "deskripsi_penggerak": {
+      "type": "text"
+    }
+  }
+}
