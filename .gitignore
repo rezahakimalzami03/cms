@@ -71,7 +71,6 @@ $RECYCLE.BIN/
 ############################
 
 *#
-ssl
 .idea
 nbproject
 !public/uploads/.gitkeep
@@ -83,7 +82,6 @@ nbproject
 lib-cov
 lcov.info
 pids
-logs
 results
 node_modules
 .node_history
