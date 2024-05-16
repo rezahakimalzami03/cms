@@ -1,9 +1,9 @@
 /* eslint-disable linebreak-style */
-/* eslint-disable indent */
+/* eslint-disable no-unused-vars */
 /* eslint-disable linebreak-style */
+/* eslint-disable indent */
 const parse = require('pg-connection-string').parse;
 const config = parse(process.env.DATABASE_URL);
-// eslint-disable-next-line no-unused-vars
 module.exports = ({ env }) => ({
     connection: {
         client: 'postgres',
